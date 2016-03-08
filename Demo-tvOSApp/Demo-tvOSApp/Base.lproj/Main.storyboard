@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--Shoe View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ShoeViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezh-h0-dJg" customClass="VideoContainerView">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="540"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wzz-qS-VZ3">
+                                <rect key="frame" x="0.0" y="540" width="1920" height="540"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Alpine Swiss Zurich Mens Dress Shoes Lace Up Brogue Medallion Wing Tip Oxfords" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="koW-A5-Jcb">
+                                        <rect key="frame" x="932" y="24" width="980" height="96"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="980" id="ckb-Wn-AL9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="40"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3K-xf-BNc">
+                                        <rect key="frame" x="932" y="140" width="51" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Size:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6CY-RB-Bdr">
+                                        <rect key="frame" x="932" y="172" width="43" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Suede Inside Manmade Upper Rubber Outsole " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TUc-EK-fIv">
+                                        <rect key="frame" x="932" y="296" width="429" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• An Updated Classic Look Allows You To Dress up or Casual Under Jeans" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="md8-lK-PiL">
+                                        <rect key="frame" x="932" y="332" width="658" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Wing Tip Brogue Medallion Toe" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Au-EC-2Su">
+                                        <rect key="frame" x="932" y="368" width="293" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Cushioned Suede Leather Insoles &amp; Lining, Rubber Outsole, Manmade Upper" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YcA-8k-Rlw">
+                                        <rect key="frame" x="932" y="404" width="700" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Rugged yet Classic" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og7-an-dma">
+                                        <rect key="frame" x="932" y="440" width="186" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="• Traditional Lace-up Design Allows For a Secure &amp; Adjustable Fit" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rsw-bQ-Miu">
+                                        <rect key="frame" x="932" y="476" width="580" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="fbk-oW-5Ro">
+                                        <rect key="frame" x="259" y="90" width="360" height="360"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="360" id="jQp-FE-8Yr"/>
+                                            <constraint firstAttribute="width" constant="360" id="wC2-67-NdI"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$34.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GxD-C0-Z4P">
+                                        <rect key="frame" x="991" y="140" width="66" height="24"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" red="0.81013569078947367" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZTe-HI-fh0">
+                                        <rect key="frame" x="932" y="202" width="150" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="43" id="Ij2-ac-S2p"/>
+                                            <constraint firstAttribute="width" constant="150" id="X30-57-bLT"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="8"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0dp-5U-Yb9">
+                                        <rect key="frame" x="1106" y="202" width="150" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="Xk2-cR-uNS"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="s4G-Vh-uPg"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="tZc-3P-tLw"/>
+                                            <constraint firstAttribute="height" constant="43" id="zeN-mT-5Tp"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="8.5"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTy-UU-JLq">
+                                        <rect key="frame" x="1280" y="202" width="150" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="8tc-Tx-WN9"/>
+                                            <constraint firstAttribute="width" constant="150" id="OkL-UC-Ix4"/>
+                                            <constraint firstAttribute="height" constant="43" id="lvm-jW-wUk"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="pr0-M9-dqD"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="9"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SXj-YV-XHr">
+                                        <rect key="frame" x="1454" y="202" width="150" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="86v-pC-FEs"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="9vQ-Pe-MX5"/>
+                                            <constraint firstAttribute="height" constant="43" id="FSs-l3-0WE"/>
+                                            <constraint firstAttribute="width" constant="150" id="yMC-Xq-zfc"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="9.5"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GBY-nZ-mYn">
+                                        <rect key="frame" x="1628" y="202" width="150" height="43"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43" id="Vt8-0Y-bgG"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="YnM-cu-nP6"/>
+                                            <constraint firstAttribute="height" constant="43" id="hs5-4t-htO"/>
+                                            <constraint firstAttribute="width" constant="150" id="myu-3c-t1p"/>
+                                        </constraints>
+                                        <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                        <state key="normal" title="10"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="koW-A5-Jcb" secondAttribute="trailing" constant="8" id="1R6-Wv-hqp"/>
+                                    <constraint firstItem="SXj-YV-XHr" firstAttribute="leading" secondItem="UTy-UU-JLq" secondAttribute="trailing" constant="24" id="4Mt-lM-pXC"/>
+                                    <constraint firstItem="fbk-oW-5Ro" firstAttribute="leading" secondItem="Wzz-qS-VZ3" secondAttribute="leading" constant="259" id="9Cf-Pi-ZFC"/>
+                                    <constraint firstItem="GxD-C0-Z4P" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="20" id="BMK-S0-Es9"/>
+                                    <constraint firstItem="ZTe-HI-fh0" firstAttribute="leading" secondItem="6CY-RB-Bdr" secondAttribute="leading" id="Bc3-Mv-Wc1"/>
+                                    <constraint firstItem="0dp-5U-Yb9" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="82" id="FUU-O4-zMP"/>
+                                    <constraint firstItem="og7-an-dma" firstAttribute="top" secondItem="YcA-8k-Rlw" secondAttribute="bottom" constant="12" id="JFv-EO-60I"/>
+                                    <constraint firstItem="ZTe-HI-fh0" firstAttribute="top" secondItem="6CY-RB-Bdr" secondAttribute="bottom" constant="6" id="JQO-sC-57I"/>
+                                    <constraint firstItem="4Au-EC-2Su" firstAttribute="top" secondItem="md8-lK-PiL" secondAttribute="bottom" constant="12" id="JkU-yi-7Bd"/>
+                                    <constraint firstItem="koW-A5-Jcb" firstAttribute="top" secondItem="Wzz-qS-VZ3" secondAttribute="top" constant="24" id="Jr3-eE-ko6"/>
+                                    <constraint firstItem="h3K-xf-BNc" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="20" id="LJw-Qo-nSw"/>
+                                    <constraint firstItem="4Au-EC-2Su" firstAttribute="leading" secondItem="md8-lK-PiL" secondAttribute="leading" id="LkW-hL-eCD"/>
+                                    <constraint firstItem="fbk-oW-5Ro" firstAttribute="centerY" secondItem="Wzz-qS-VZ3" secondAttribute="centerY" id="P3C-Bj-3um"/>
+                                    <constraint firstItem="UTy-UU-JLq" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="82" id="Tj4-CV-Lay"/>
+                                    <constraint firstItem="UTy-UU-JLq" firstAttribute="leading" secondItem="0dp-5U-Yb9" secondAttribute="trailing" constant="24" id="Vq9-5U-LYH"/>
+                                    <constraint firstItem="6CY-RB-Bdr" firstAttribute="leading" secondItem="h3K-xf-BNc" secondAttribute="leading" id="Wax-ZF-moW"/>
+                                    <constraint firstItem="GBY-nZ-mYn" firstAttribute="leading" secondItem="SXj-YV-XHr" secondAttribute="trailing" constant="24" id="X03-vz-3gX"/>
+                                    <constraint firstItem="h3K-xf-BNc" firstAttribute="leading" secondItem="koW-A5-Jcb" secondAttribute="leading" id="XY5-4I-ehD"/>
+                                    <constraint firstItem="og7-an-dma" firstAttribute="leading" secondItem="YcA-8k-Rlw" secondAttribute="leading" id="a6e-9I-j1l"/>
+                                    <constraint firstItem="GBY-nZ-mYn" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="82" id="bpz-kv-R00"/>
+                                    <constraint firstItem="md8-lK-PiL" firstAttribute="leading" secondItem="TUc-EK-fIv" secondAttribute="leading" id="cw2-Ka-p2w"/>
+                                    <constraint firstItem="md8-lK-PiL" firstAttribute="top" secondItem="TUc-EK-fIv" secondAttribute="bottom" constant="12" id="hgg-HX-mht"/>
+                                    <constraint firstItem="Rsw-bQ-Miu" firstAttribute="top" secondItem="og7-an-dma" secondAttribute="bottom" constant="12" id="j8y-wF-h0v"/>
+                                    <constraint firstItem="YcA-8k-Rlw" firstAttribute="top" secondItem="4Au-EC-2Su" secondAttribute="bottom" constant="12" id="mXE-QL-7Dx"/>
+                                    <constraint firstItem="TUc-EK-fIv" firstAttribute="leading" secondItem="6CY-RB-Bdr" secondAttribute="leading" id="ohM-1U-UHB"/>
+                                    <constraint firstItem="GxD-C0-Z4P" firstAttribute="leading" secondItem="h3K-xf-BNc" secondAttribute="trailing" constant="8" id="ukl-3R-Yrt"/>
+                                    <constraint firstItem="6CY-RB-Bdr" firstAttribute="top" secondItem="h3K-xf-BNc" secondAttribute="bottom" constant="8" id="wFg-Ik-Uzb"/>
+                                    <constraint firstItem="SXj-YV-XHr" firstAttribute="top" secondItem="koW-A5-Jcb" secondAttribute="bottom" constant="82" id="wMo-1G-u1d"/>
+                                    <constraint firstItem="Rsw-bQ-Miu" firstAttribute="leading" secondItem="og7-an-dma" secondAttribute="leading" id="xNf-kb-ao3"/>
+                                    <constraint firstItem="GxD-C0-Z4P" firstAttribute="centerY" secondItem="h3K-xf-BNc" secondAttribute="centerY" id="xSs-1E-7aF"/>
+                                    <constraint firstItem="0dp-5U-Yb9" firstAttribute="leading" secondItem="ZTe-HI-fh0" secondAttribute="trailing" constant="24" id="y0L-cV-XxV"/>
+                                    <constraint firstItem="YcA-8k-Rlw" firstAttribute="leading" secondItem="4Au-EC-2Su" secondAttribute="leading" id="yde-9B-vCV"/>
+                                    <constraint firstItem="TUc-EK-fIv" firstAttribute="top" secondItem="6CY-RB-Bdr" secondAttribute="bottom" constant="100" id="yuJ-fF-H2D"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes1" translatesAutoresizingMaskIntoConstraints="NO" id="2GZ-yF-4IH">
+                                <rect key="frame" x="20" y="548" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="4ay-IE-QKx"/>
+                                    <constraint firstAttribute="width" constant="130" id="mnm-SM-smO"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes2" translatesAutoresizingMaskIntoConstraints="NO" id="VLl-Mv-7NW">
+                                <rect key="frame" x="20" y="745" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="130" id="CYG-b1-J7b"/>
+                                    <constraint firstAttribute="height" constant="130" id="Rq2-An-8Qh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes3" translatesAutoresizingMaskIntoConstraints="NO" id="fII-hL-gqw">
+                                <rect key="frame" x="20" y="942" width="130" height="130"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="YCo-1c-VqL"/>
+                                    <constraint firstAttribute="width" constant="130" id="tPw-3B-1Yb"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Wzz-qS-VZ3" firstAttribute="top" secondItem="Ezh-h0-dJg" secondAttribute="bottom" id="5eW-P5-E6U"/>
+                            <constraint firstItem="Ezh-h0-dJg" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="6VL-Td-cx1"/>
+                            <constraint firstAttribute="trailing" secondItem="Ezh-h0-dJg" secondAttribute="trailing" id="8Cp-2N-QMt"/>
+                            <constraint firstItem="Ezh-h0-dJg" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" multiplier="0.5" id="8cd-GU-grT"/>
+                            <constraint firstItem="2GZ-yF-4IH" firstAttribute="top" secondItem="Ezh-h0-dJg" secondAttribute="bottom" constant="8" id="JP3-6U-dGw"/>
+                            <constraint firstItem="Ezh-h0-dJg" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="bWj-NV-TSE"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fII-hL-gqw" secondAttribute="bottom" constant="8" id="dBB-dn-mdc"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Wzz-qS-VZ3" secondAttribute="bottom" id="gPg-3o-o2B"/>
+                            <constraint firstItem="Ezh-h0-dJg" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="hF1-xZ-Wmc"/>
+                            <constraint firstItem="Wzz-qS-VZ3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hnl-sv-xOh"/>
+                            <constraint firstItem="VLl-Mv-7NW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="iXA-cc-sDK"/>
+                            <constraint firstItem="VLl-Mv-7NW" firstAttribute="top" secondItem="2GZ-yF-4IH" secondAttribute="bottom" constant="67" id="lKD-hv-aJo"/>
+                            <constraint firstAttribute="trailing" secondItem="Wzz-qS-VZ3" secondAttribute="trailing" id="naw-vm-lJR"/>
+                            <constraint firstItem="2GZ-yF-4IH" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="vv1-B3-YRK"/>
+                            <constraint firstItem="fII-hL-gqw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="x8X-L4-yyO"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="videoContainer" destination="Ezh-h0-dJg" id="4UL-vi-BFr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1" y="131"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="shoes1" width="1280" height="1343"/>
+        <image name="shoes2" width="1200" height="1000"/>
+        <image name="shoes3" width="1600" height="929"/>
+    </resources>
+</document>
